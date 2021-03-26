@@ -27,11 +27,13 @@
       gtag('config', 'UA-179041920-2');
     </script>
     <%= stylesheet_link_tag 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' %>
-    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto+Condensed" %>
+    <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Roboto+Condensed' %>
+    <%= stylesheet_link_tag 'https://s.pageclip.co/v1/pageclip.css', media: 'screen' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body class="container-fluid">
     <%= yield %>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
