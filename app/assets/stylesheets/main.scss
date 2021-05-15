@@ -101,7 +101,7 @@
 .project-1 {
   grid-column: span 1;
   height: 280px;
-  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 29% 16% no-repeat;
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 29% 10% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
@@ -125,7 +125,7 @@
 
 .project-4 {
   height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars.png')) 0% 31% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 0% 0.75% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
@@ -152,6 +152,10 @@
   font-size: 28px;
   line-height: 105.3%;
   color: #4f5461;
+}
+
+.details-about {
+  line-height: 22px;
 }
 
 .details {
@@ -436,6 +440,10 @@ form input[type="text"] {
   fill: #fff;
 }
 
+.view-projects {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .page-header {
     height: 676px;
@@ -493,7 +501,7 @@ form input[type="text"] {
 
   .project-4 {
     height: 280px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars.png')) 49% 31% no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 49% 0% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
