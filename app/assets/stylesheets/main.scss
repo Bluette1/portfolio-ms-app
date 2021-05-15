@@ -100,8 +100,8 @@
 
 .project-1 {
   grid-column: span 1;
-  height: 280px;
-  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 29% 10% no-repeat;
+  height: 370px;
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 8% 10% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
@@ -110,35 +110,35 @@
 
 .project-2 {
   grid-column: span 1;
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 31% 31% no-repeat;
+  height: 370px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 8% 31% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
 .project-3 {
-  height: 280px;
+  height: 370px;
   background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
 .project-4 {
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 0% 0.75% no-repeat;
+  height: 370px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 0% 0% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
 .project-5 {
-  height: 280px;
+  height: 370px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-holiday-homes.png')) 1% 12% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
 .project-6 {
-  height: 280px;
+  height: 370px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('xextris.png')) 50.5% 32% no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -476,8 +476,8 @@ form input[type="text"] {
 @media (max-width: 320px) {
   .project-1 {
     grid-column: span 1;
-    height: 280px;
-    background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 40% 16% no-repeat;
+    height: 370px;
+    background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 17% 16% no-repeat;
     background-size: cover;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
@@ -486,35 +486,35 @@ form input[type="text"] {
 
   .project-2 {
     grid-column: span 1;
-    height: 280px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 48% 31% no-repeat;
+    height: 370px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 8% 31% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
 
   .project-3 {
-    height: 280px;
+    height: 370px;
     background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 8.5% 16% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
 
   .project-4 {
-    height: 280px;
+    height: 370px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 49% 0% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
 
   .project-5 {
-    height: 280px;
+    height: 370px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-holiday-homes.png')) 5% 12% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
 
   .project-6 {
-    height: 280px;
+    height: 370px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('xextris.png')) 50.5% 32% no-repeat;
     background-size: cover;
     border-radius: 10px;
