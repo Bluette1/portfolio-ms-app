@@ -90,7 +90,6 @@
 }
 
 .view-projects a {
-  font-weight: bold;
   font-size: medium;
   text-decoration: underline;
 }
@@ -313,7 +312,7 @@
   border-radius: 14px;
 }
 
-.email {
+.email, .your-address {
   height: 59px;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07);
