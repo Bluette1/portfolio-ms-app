@@ -461,6 +461,11 @@ form input[type="text"] {
   fill: #fff;
 }
 
+ul.light-line li {
+  width: 80px;
+  box-shadow: 0 1px #dbdae0;
+}
+
 @media (min-width: 768px) {
   .page-header {
     height: 676px;
@@ -482,10 +487,6 @@ form input[type="text"] {
     font-size: 20px;
   }
 
-  .name-section {
-    font-size: 35px;
-  }
-
   .description {
     font-size: 12px;
   }
@@ -497,6 +498,16 @@ form input[type="text"] {
   .centered-posn {
     display: grid;
     place-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-2 {
+    grid-column: span 1;
+    height: 370px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('weather-app.jpg')) 49% 31% no-repeat;
+    background-size: cover;
+    border-radius: 10px;
   }
 }
 
@@ -550,12 +561,12 @@ form input[type="text"] {
 
 @media (max-width: 823px) {
   .name-section {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
 @media (max-width: 362px) {
   .name-section {
-    font-size: 35px;
+    font-size: 27px;
   }
 }
